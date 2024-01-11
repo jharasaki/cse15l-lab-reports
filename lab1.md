@@ -28,8 +28,8 @@ Not an error.
 bash: cd: en-us.txt: Not a directory
 ```
 Working Directory: /messages
-Explanation: 
-Error. 
+Explanation: The cd command only changes the directory, it cannot take in a file.
+Error. en-us.txt is not a directory, it does not know what to do with a file put in as an argument.
 
 
 ## ls:
@@ -39,7 +39,7 @@ Error.
 Hello.class  Hello.java  messages  README
 ```
 Working Directory: /lecture1
-Explanation: 
+Explanation: This command lists all of the files and directories within the current directory.
 Not an error.
 
 
@@ -48,8 +48,8 @@ Not an error.
 [user@sahara ~/lecture1]$ ls messages/
 en-us.txt  es-mx.txt  ja.txt  zh-cn.txt
 ```
-Working Directory: /home
-Explanation: 
+Working Directory: /lecture1
+Explanation: This command lists all of the files and directories within the directory given as an argument.
 Not an error.
 
 
@@ -59,7 +59,7 @@ Not an error.
 README
 ```
 Working Directory: /lecture1
-Explanation: 
+Explanation: The ls command is made to list files and directories, not the content of files. Therefore it displays the file name given.
 Not an error. 
 
 
