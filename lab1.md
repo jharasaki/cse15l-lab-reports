@@ -9,7 +9,7 @@
 ```
 Working Directory: /home
 Explanation: Because there was no argument, there is no change in the directory. Therefore it stays in the default directory.
-    Not an error.
+  Not an error.
 
 
 **Directory as an Argument**
