@@ -9,7 +9,7 @@
 ```
 Working Directory: /home
 Explanation: Because there was no argument, there is no change in the directory. Therefore it stays in the default directory.
-  Not an error.
+| Not an error.
 
 
 **Directory as an Argument**
@@ -19,7 +19,7 @@ Explanation: Because there was no argument, there is no change in the directory.
 ```
 Working Directory: /home
 Explanation: The command changes the directory to the directory put in as an argument.
-  Not an error.
+Not an error.
 
 
 **File as an Argument**
@@ -29,7 +29,7 @@ bash: cd: en-us.txt: Not a directory
 ```
 Working Directory: /messages
 Explanation: The cd command only changes the directory, it cannot take in a file.
-  Error. en-us.txt is not a directory, it does not know what to do with a file put in as an argument.
+Error. en-us.txt is not a directory, it does not know what to do with a file put in as an argument.
 
 
 ## ls:
