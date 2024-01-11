@@ -9,7 +9,7 @@
 ```
 Working Directory: /home
 Explanation: Because there was no argument, there is no change in the directory. Therefore it stays in the default directory.
-| Not an error.
+Not an error.
 
 
 **Directory as an Argument**
@@ -70,7 +70,7 @@ Not an error.
 
 ```
 Working Directory: /home
-Explanation: 
+Explanation: TODO
 Not an error.
 
 
@@ -80,8 +80,8 @@ Not an error.
 cat: lecture1/: Is a directory
 ```
 Working Directory: /home
-Explanation: 
-Error.
+Explanation: The cat command is made to display the content of a file. It cannot read the content in a directory.
+Error. It can only display the content of a file, /lecture1 is a directory.
 
 
 **File as an Argument**
@@ -93,5 +93,5 @@ javac Hello.java
 java Hello messages/en-us.txt
 ```
 Working Directory: /lecture1
-Explanation: 
+Explanation: This command displays the content of the file taken as an argument. 
 Not an error. 
