@@ -8,7 +8,8 @@
 [user@sahara ~]$
 ```
 - Working Directory: /home
-- Explanation: Because there was no argument, there is no change in the directory. Therefore it stays in the default directory.
+- Explanation: Because there was no argument, the command cd changes the directory to the /home directory.
+  There is no change in this case because we are already in the /home directory.
 - Not an error.
 
 
