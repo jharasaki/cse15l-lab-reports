@@ -19,7 +19,7 @@
 [user@sahara ~/lecture1]$
 ```
 - Working Directory: /home
--Explanation: The command changes the directory to the directory put in as an argument.
+- Explanation: The command changes the directory to the directory put in as an argument.
 - Not an error.
 
 
