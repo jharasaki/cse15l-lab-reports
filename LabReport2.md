@@ -2,8 +2,8 @@
 
 ## Part 1
 
-I started with cloning the wavelet floder into my workspace and then made the ChatServer.java file.
-I then implemtned the file to support this `/add-message?s=<string>&user=<string>` format.
+I started with cloning the wavelet folder into my workspace and then made the ChatServer.java file.
+I then implemented the file to support this `/add-message?s=<string>&user=<string>` format.
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -54,7 +54,7 @@ class ChatServer {
 After I complied and ran the program, the server started with "No new messages".
 <br/>Then I added the path /add-message?s=Hello&user=Jedidiah to show a user(Jedidiah) say "Hello". 
 <br/>The page looked like this:
-![alt text](Hello.jpg)
+![Image](Hello.jpg)
 
 - This called the handleRequest method.
 - The handleRequest method takes in the URL and sees the path added which is /add-message?s=Hello&user=Jedidiah
@@ -62,7 +62,7 @@ After I complied and ran the program, the server started with "No new messages".
 It then adds "Jedidiah: Hello" to a list of messages in the program.
 <br/>
 Then I added the path /add-message?s=How are you&user=Jedi and it came out like this:
-![alt text](HowAreYou.jpg)
+![Image](HowAreYou.jpg)
 
 - This called the handleRequest method.
 - The handleRequest method takes in the URL and sees the path added which is /add-message?s=How are you&user=Jedi
