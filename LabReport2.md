@@ -65,6 +65,8 @@ Then I added the path "/add-message?s=How are you&user=Jedi" and it came out lik
 - This called the handleRequest method.
 - The handleRequest method takes in the URL and sees the path added which is "/add-message?s=How are you&user=Jedi"
 - It takes the part after "/add-message?" which shows that user = "Jedi" and text = "How are you".
+It then adds "Jedi: How are you" to a list of messages in the program.
+
 
 <br/>
 <br/>
