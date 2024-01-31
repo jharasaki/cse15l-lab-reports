@@ -72,4 +72,4 @@ It then adds "Jedi: How are you" to a list of messages in the program.
 
 ## Part 2
 
-![Image](HowAreYou.jpg)
+/home/linux/ieng6/oce/45/jharasaki/.ssh/id_rsa
