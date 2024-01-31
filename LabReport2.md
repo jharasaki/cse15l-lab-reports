@@ -50,8 +50,12 @@ class ChatServer {
 }
 
 ```
+
 After I complied and ran the program, the server started with "No new messages".
 <br/>Then I added the path /add-message?s=Hello&user=Jedidiah to show a user(Jedidiah) say "Hello". 
+<br/>The page looked like this:
 ![alt text](Hello.jpg)
 
-
+- This called the handleRequest method.
+- 
+- 
