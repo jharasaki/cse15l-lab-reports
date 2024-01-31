@@ -52,4 +52,6 @@ class ChatServer {
 ```
 After I complied and ran the program, the server started with "No new messages".
 Then I added the path /add-message?s=Hello&user=Jedidiah to show a user(Jedidiah) say "Hello". 
-![alt text]()
+![alt text](Hello.jpg)
+
+
