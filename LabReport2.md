@@ -3,8 +3,8 @@
 ## Part 1
 
 I started with cloning the wavelet floder into my workspace and then made the ChatServer.java file.
-I then implemtned the file to support this '/add-message?s=<string>&user=<string>' format.
-'''
+I then implemtned the file to support this `/add-message?s=<string>&user=<string>` format.
+```
 import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList;
@@ -48,4 +48,5 @@ class ChatServer {
         Server.start(port, new Handler());
     }
 }
-'''
+
+```
