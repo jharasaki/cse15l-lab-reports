@@ -57,12 +57,18 @@ After I complied and ran the program, the server started with "No new messages".
 ![alt text](Hello.jpg)
 
 - This called the handleRequest method.
-- The handleRequest method takes in the URL and sees the path added which is /add-message?user=Jedidiah&text=Hello.
+- The handleRequest method takes in the URL and sees the path added which is /add-message?s=Hello&user=Jedidiah
 - It takes the part after "/add-message?" which shows that user = "Jedidiah" and text = "Hello".
 It then adds "Jedidiah: Hello" to a list of messages in the program.
 <br/>
-<br/>
 Then I added the path /add-message?s=How are you&user=Jedi and it came out like this:
-![alt text](HowAreYou.png)
+![alt text](HowAreYou.jpg)
 
+- This called the handleRequest method.
+- The handleRequest method takes in the URL and sees the path added which is /add-message?s=How are you&user=Jedi
+- It takes the part after "/add-message?" which shows that user = "Jedi" and text = "How are you".
 
+<br/>
+<br/>
+
+## Part 2
