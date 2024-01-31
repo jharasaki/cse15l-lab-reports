@@ -61,7 +61,6 @@ After I complied and ran the program, the server started with "No new messages".
 It then adds "Jedidiah: Hello" to a list of messages in the program.
 <br/>
 <br/>Then I added the path "/add-message?s=How are you&user=Jedi" and it came out like this:
-<br/>
 ![Image](HowAreYou.jpg)
 
 - This called the handleRequest method.
@@ -72,3 +71,4 @@ It then adds "Jedidiah: Hello" to a list of messages in the program.
 <br/>
 
 ## Part 2
+
