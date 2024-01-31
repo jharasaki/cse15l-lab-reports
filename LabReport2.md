@@ -73,14 +73,17 @@ It then adds "Jedi: How are you" to a list of messages in the program.
 ## Part 2
 
 **Private SSH key location**
+<br/>
 ![Image](1labRep2.jpg)
-Path: //Users/jd/.ssh/id_rsa.pub
+<br/>Path: //Users/jd/.ssh/id_rsa.pub
 
 **SSH key location on ieng6**
+<br/>
 ![Image](2labRep2.jpg)
-Path: /home/linux/ieng6/oce/45/jharasaki/.ssh/id_rsa
+<br/>Path: /home/linux/ieng6/oce/45/jharasaki/.ssh/id_rsa
 
 **Logged into ieng6 without requiring password**
+<br/>
 ![Image](3labRep2.jpg)
 
 ## Part 3
