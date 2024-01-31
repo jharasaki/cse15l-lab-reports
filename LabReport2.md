@@ -72,12 +72,17 @@ It then adds "Jedi: How are you" to a list of messages in the program.
 
 ## Part 2
 
+**Private SSH key location**
 ![Image](1labRep2.jpg)
+Path: //Users/jd/.ssh/id_rsa.pub
 
-/home/linux/ieng6/oce/45/jharasaki/.ssh/id_rsa
-
+**SSH key location on ieng6**
 ![Image](2labRep2.jpg)
+Path: /home/linux/ieng6/oce/45/jharasaki/.ssh/id_rsa
 
+**Logged into ieng6 without requiring password**
 ![Image](3labRep2.jpg)
 
+## Part 3
 
+I learned how to create a simple Java chat server that can handle HTTP requests and maintain a list of messages. I successfully implemented a feature to parse query parameters from a URL, allowing users to add personalized messages. This experience helped me understand HTTP request handling and string manipulation in Java. 
