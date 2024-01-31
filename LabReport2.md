@@ -61,6 +61,8 @@ It then adds "Jedidiah: Hello" to a list of messages in the program.
 <br/>
 <br/>Then I added the path "/add-message?s=How are you&user=Jedi" and it came out like this:
 ![Image](HowAreYou.jpg)
+![Image](Hello.jpg)
+
 
 - This called the handleRequest method.
 - The handleRequest method takes in the URL and sees the path added which is "/add-message?s=How are you&user=Jedi"
