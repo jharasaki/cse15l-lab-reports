@@ -59,3 +59,6 @@ After I complied and ran the program, the server started with "No new messages".
 - This called the handleRequest method.
 - 
 - 
+
+
+![alt text](HowAreYou.jpg)
