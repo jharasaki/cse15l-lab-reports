@@ -87,21 +87,21 @@ less -N technical/biomed/1468-6708-3-3.txt
       7         ] randomized placebo-controlled clinical trial have
       8         unequivocally demonstrated that 3-Hydroxy-3-methylgluatryl
       9         coenzyme A (HMG CoA) reductase inhibitors (statins) reduce
-     10         the morbidity and mortality associated with **coronary**
+     10         the morbidity and mortality associated with ==coronary==
      11         disease. These trials found that when compared with
      12         placebo, statins significantly reduced the incidence of
      13         death, myocardial infarction, unstable angina, percutaneous
-     14         and surgical **coronary** revascularization, and stroke in
+     14         and surgical ==coronary== revascularization, and stroke in
      15         persons with 
-     16         stable **coronary** disease. Because
-     17         patients who had experienced an acute **coronary** syndrome
+     16         stable ==coronary== disease. Because
+     17         patients who had experienced an acute ==coronary== syndrome
      18         within three to six months of enrollment were excluded,
      19         these trials did not assess the effect of lipid-lowering
      20         therapy on adverse cardiovascular events in those with
      21         recently 
-     22         unstable **coronary** disease. Whether
+     22         unstable ==coronary== disease. Whether
      23         lipid-lowering therapy would provide incremental benefit if
-     24         initiated immediately following an acute **coronary** syndrome
+     24         initiated immediately following an acute ==coronary== syndrome
       ...
 ```
 less -N shows numbers for each line, which is very useful for finding and talking about exact spots in files.
@@ -111,7 +111,7 @@ less -N shows numbers for each line, which is very useful for finding and talkin
 less -I technical/911report/chapter-7.txt
 /california
 
-FIRST ARRIVALS IN **CALIFORNIA**
+FIRST ARRIVALS IN ==CALIFORNIA==
             In chapter 5 we described the Southeast Asia travels of Nawaf al Hazmi, Khalid al
                 Mihdhar, and others in January 2000 on the first part of the "planes operation." In
                 that chapter we also described how Mihdhar was spotted in Kuala Lumpur early in
@@ -121,8 +121,8 @@ FIRST ARRIVALS IN **CALIFORNIA**
                     Diego.
             
             Two Weeks in Los Angeles
-            Why Hazmi and Mihdhar came to **California**, we do not know for certain. Khalid Sheikh
-                Mohammed (KSM), the organizer of the planes operation, explains that **California** was
+            Why Hazmi and Mihdhar came to ==California==, we do not know for certain. Khalid Sheikh
+                Mohammed (KSM), the organizer of the planes operation, explains that ==California== was
                 a convenient point of entry from Asia and had the added benefit of being far away
                 from the intended target area.
             
@@ -133,7 +133,7 @@ FIRST ARRIVALS IN **CALIFORNIA**
             
             It would therefore be plausible that they or KSM would have tried to identify, in
                 advance, a friendly contact for them in the United States. In detention, KSM denies
-                that al Qaeda had any agents in Southern **California**. We do not credit this
+                that al Qaeda had any agents in Southern ==California==. We do not credit this
                 denial.4We believe it is unlikely that Hazmi and Mihdhar-neither of whom, in
                 contrast to the Hamburg group, had any prior exposure to life in the West-would have
                 come to the United States without arranging to receive assistance from one or more
@@ -149,29 +149,29 @@ The problem
         ] randomized placebo-controlled clinical trial have
         unequivocally demonstrated that 3-Hydroxy-3-methylgluatryl
         coenzyme A (HMG CoA) reductase inhibitors (statins) reduce
-        the morbidity and mortality associated with **coronary**
+        the morbidity and mortality associated with ==coronary==
         disease. These trials found that when compared with
         placebo, statins significantly reduced the incidence of
         death, myocardial infarction, unstable angina, percutaneous
-        and surgical **coronary** revascularization, and stroke in
+        and surgical ==coronary== revascularization, and stroke in
         persons with 
-        stable **coronary** disease. Because
-        patients who had experienced an acute **coronary** syndrome
+        stable ==coronary== disease. Because
+        patients who had experienced an acute ==coronary== syndrome
         within three to six months of enrollment were excluded,
         these trials did not assess the effect of lipid-lowering
         therapy on adverse cardiovascular events in those with
         recently 
-        unstable **coronary** disease. Whether
+        unstable ==coronary== disease. Whether
         lipid-lowering therapy would provide incremental benefit if
-        initiated immediately following an acute **coronary** syndrome
+        initiated immediately following an acute ==coronary== syndrome
         is an important issue as the risk of a recurrent adverse
         cardiac events is much greater in patients with unstable
-        **coronary** disease than in the stable setting. The Myocardial
+        ==coronary== disease than in the stable setting. The Myocardial
         Ischemia Reduction with Aggressive Cholesterol Lowering
         (MIRACL) trial set out to answer this question.
     ...
 ```
-*I used "**word**" to show that it is highlighted in the terminal*
+*I used "==word==" to show that it is highlighted in the terminal*
 <br/> less -I allows you to find specific words within a file without case sensitivity. This is useful to find lines/words in big files in a short amount of time.
 
 ### 3.) -M or --LONG-PROMPT
@@ -226,7 +226,7 @@ less -M provides a detailed status line, showing the file name, the current posi
 ```
 less -pBin technical/911report/chapter-7.txt
 
-qualifications for this plot were their devotion to Usama **Bin** Ladin, their veteran
+qualifications for this plot were their devotion to Usama ==Bin== Ladin, their veteran
                 service, and their ability to get valid U.S. visas. Neither had spent any
                 substantial time in the West, and neither spoke much, if any, English.
             
@@ -241,14 +241,14 @@ qualifications for this plot were their devotion to Usama **Bin** Ladin, their v
 ```
 less -pcal technical/biomed/1468-6708-3-3.txt
 
-] randomized placebo-controlled clini**cal** trial have
-        unequivo**cal**ly demonstrated that 3-Hydroxy-3-methylgluatryl
+] randomized placebo-controlled clini==cal== trial have
+        unequivo==cal==ly demonstrated that 3-Hydroxy-3-methylgluatryl
         coenzyme A (HMG CoA) reductase inhibitors (statins) reduce
         the morbidity and mortality associated with coronary
         disease. These trials found that when compared with
         placebo, statins significantly reduced the incidence of
         death, myocardial infarction, unstable angina, percutaneous
-        and surgi**cal** coronary revascularization, and stroke in
+        and surgi==cal== coronary revascularization, and stroke in
         persons with 
         stable coronary disease. Because
         patients who had experienced an acute coronary syndrome
@@ -257,7 +257,7 @@ less -pcal technical/biomed/1468-6708-3-3.txt
         therapy on adverse cardiovascular events in those with
         recently 
 ```
-*I used "**word**" to show that it is highlighted in the terminal*
+*I used "==word==" to show that it is highlighted in the terminal*
 <br/> less -p[pattern] automatically searches for and jumps to the first occurrence of a specified pattern when opening a file, making it very useful for quickly locating specific text within large files without manual searching.
 
 
