@@ -108,7 +108,7 @@ less -N shows numbers for each line, which is very useful for finding and talkin
 
 
 ```
-FIRST ARRIVALS IN ==CALIFORNIA==
+FIRST ARRIVALS IN **CALIFORNIA**
             In chapter 5 we described the Southeast Asia travels of Nawaf al Hazmi, Khalid al
                 Mihdhar, and others in January 2000 on the first part of the "planes operation." In
                 that chapter we also described how Mihdhar was spotted in Kuala Lumpur early in
@@ -138,8 +138,6 @@ FIRST ARRIVALS IN ==CALIFORNIA==
 ```
 
 
-
-==cali==
 
 
 
