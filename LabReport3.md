@@ -30,7 +30,7 @@ Successful Test:
   }
 ```
 The Symptom:
-![Image]()
+![Image](reversedTests.jpg)
 
 The Bug:
 <br/> The bug in reversed(int[] arr) is that it returns the original array arr instead of the new array newArray which is supposed to hold the elements of arr in reversed order.
