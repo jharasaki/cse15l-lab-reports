@@ -174,6 +174,90 @@ The problem
 *I used "**word**" to show that it is highlighted in the terminal*
 <br/> less -I allows you to find specific words within a file without case sensitivity. This is useful to find lines/words in big files in a short amount of time.
 
+### -M or --LONG-PROMPT
+```
+less -M technical/911report/chapter-7.txt
 
+            In mid-November, we believe, three of the future muscle hijackers, Wail al Shehri,
+                Waleed al Shehri, and Ahmed al Nami, all of whom had obtained their U.S. visas in
+                late October, traveled in a group from Saudi Arabia to Beirut and then onward to
+                Iran. An associate of a senior Hezbollah operative was on the same flight that took
+                the future hijackers to Iran. Hezbollah officials in Beirut and Iran were expecting
+                the arrival of a group during the same time period. The travel of this group was
+                important enough to merit the attention of senior figures in Hezbollah.
+            
+            Later in November, two future muscle hijackers, Satam al Suqami and Majed Moqed, flew
+                into Iran from Bahrain. In February 2001, Khalid al Mihdhar may have taken a flight
+                from Syria to Iran, and then traveled further within Iran to a point near the Afghan
+                    border.
+            
+            KSM and Binalshibh have confirmed that several of the 9/11 hijackers (at least eight,
+                according to Binalshibh) transited Iran on their way to or from Afghanistan, taking
+                advantage of the Iranian practice of not stamping Saudi passports. They deny any
+                other reason for the hijackers' travel to Iran. They also deny any relationship
+                between the hijackers and Hezbollah.
+
+technical/911report/chapter-7.txt lines 992-1018/1579 65%
+```
+```
+less -M technical/biomed/1468-6708-3-3.txt
+
+        The types of events prevented in MIRACL are also worth
+        noting. While rehospitalization for recurrent myocardial
+        ischemia is an important determinant of quality of life and
+        health care costs, other important endpoints were not
+        significantly affected (eg, death, myocardial infarction,
+        resuscitated sudden cardiac death, worsening heart failure,
+        need for coronary revascularization, etc). The question of
+        whether statins can prevent these and other adverse events
+        when initiated soon after an acute coronary syndrome will
+        require further study.
+        The short duration of follow-up is also particularly
+        troubling. While it is impressive that a clinical benefit
+        was realized after only 16 weeks of statin therapy, the
+        increased risk of adverse clinical events persists
+        throughout the year following an acute coronary syndrome.
+
+technical/biomed/1468-6708-3-3.txt lines 116-142/296 48%
+```
+less -M provides a detailed status line, showing the file name, the current position as a percentage, and line numbers, which is very helpful for keeping track of where you are in a document without getting lost.
+
+### -p[pattern] or --pattern=pattern
+```
+less -pBin technical/911report/chapter-7.txt
+
+qualifications for this plot were their devotion to Usama **Bin** Ladin, their veteran
+                service, and their ability to get valid U.S. visas. Neither had spent any
+                substantial time in the West, and neither spoke much, if any, English.
+            
+            It would therefore be plausible that they or KSM would have tried to identify, in
+                advance, a friendly contact for them in the United States. In detention, KSM denies
+                that al Qaeda had any agents in Southern California. We do not credit this
+                denial.4We believe it is unlikely that Hazmi and Mihdhar-neither of whom, in
+                contrast to the Hamburg group, had any prior exposure to life in the West-would have
+                come to the United States without arranging to receive assistance from one or more
+                individuals informed in advance of their arrival.
+```
+```
+less -pcal technical/biomed/1468-6708-3-3.txt
+
+] randomized placebo-controlled clini**cal** trial have
+        unequivo**cal**ly demonstrated that 3-Hydroxy-3-methylgluatryl
+        coenzyme A (HMG CoA) reductase inhibitors (statins) reduce
+        the morbidity and mortality associated with coronary
+        disease. These trials found that when compared with
+        placebo, statins significantly reduced the incidence of
+        death, myocardial infarction, unstable angina, percutaneous
+        and surgi**cal** coronary revascularization, and stroke in
+        persons with 
+        stable coronary disease. Because
+        patients who had experienced an acute coronary syndrome
+        within three to six months of enrollment were excluded,
+        these trials did not assess the effect of lipid-lowering
+        therapy on adverse cardiovascular events in those with
+        recently 
+```
+*I used "**word**" to show that it is highlighted in the terminal*
+<br/> less -p[pattern] automatically searches for and jumps to the first occurrence of a specified pattern when opening a file, making it very useful for quickly locating specific text within large files without manual searching.
 
 
