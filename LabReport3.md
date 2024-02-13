@@ -107,7 +107,35 @@ less -N technical/biomed/1468-6708-3-3.txt
 less -N shows numbers for each line, which is very useful for finding and talking about exact spots in files.
 
 
-
+```
+FIRST ARRIVALS IN ==CALIFORNIA==
+            In chapter 5 we described the Southeast Asia travels of Nawaf al Hazmi, Khalid al
+                Mihdhar, and others in January 2000 on the first part of the "planes operation." In
+                that chapter we also described how Mihdhar was spotted in Kuala Lumpur early in
+                January 2000, along with associates who were not identified, and then was lost to
+                sight when the group passed through Bangkok. On January 15, Hazmi and Mihdhar
+                arrived in Los Angeles. They spent about two weeks there before moving on to San
+                    Diego.
+            
+            Two Weeks in Los Angeles
+            Why Hazmi and Mihdhar came to ==California==, we do not know for certain. Khalid Sheikh
+                Mohammed (KSM), the organizer of the planes operation, explains that ==California== was
+                a convenient point of entry from Asia and had the added benefit of being far away
+                from the intended target area.
+            
+            Hazmi and Mihdhar were ill-prepared for a mission in the United States. Their only
+                qualifications for this plot were their devotion to Usama Bin Ladin, their veteran
+                service, and their ability to get valid U.S. visas. Neither had spent any
+                substantial time in the West, and neither spoke much, if any, English.
+            
+            It would therefore be plausible that they or KSM would have tried to identify, in
+                advance, a friendly contact for them in the United States. In detention, KSM denies
+                that al Qaeda had any agents in Southern ==California==. We do not credit this
+                denial.4We believe it is unlikely that Hazmi and Mihdhar-neither of whom, in
+                contrast to the Hamburg group, had any prior exposure to life in the West-would have
+                come to the United States without arranging to receive assistance from one or more
+                individuals informed in advance of their arrival.
+```
 
 
 
