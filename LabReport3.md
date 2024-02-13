@@ -48,7 +48,7 @@ static int[] reversed(int[] arr) {
 
 ## Part 2 - Researching Commands ( less )
 
-### -N or --LINE-NUMBERS
+### 1.) -N or --LINE-NUMBERS
 ```
 less -N  technical/911report/chapter-7.txt
       1 
@@ -106,7 +106,7 @@ less -N technical/biomed/1468-6708-3-3.txt
 ```
 less -N shows numbers for each line, which is very useful for finding and talking about exact spots in files.
 
-### -I or --IGNORE-CASE
+### 2.) -I or --IGNORE-CASE
 ```
 less -I technical/911report/chapter-7.txt
 /california
@@ -174,7 +174,7 @@ The problem
 *I used "**word**" to show that it is highlighted in the terminal*
 <br/> less -I allows you to find specific words within a file without case sensitivity. This is useful to find lines/words in big files in a short amount of time.
 
-### -M or --LONG-PROMPT
+### 3.) -M or --LONG-PROMPT
 ```
 less -M technical/911report/chapter-7.txt
 
@@ -222,7 +222,7 @@ technical/biomed/1468-6708-3-3.txt lines 116-142/296 48%
 ```
 less -M provides a detailed status line, showing the file name, the current position as a percentage, and line numbers, which is very helpful for keeping track of where you are in a document without getting lost.
 
-### -p[pattern] or --pattern=pattern
+### 4.) -p[pattern] or --pattern=pattern
 ```
 less -pBin technical/911report/chapter-7.txt
 
