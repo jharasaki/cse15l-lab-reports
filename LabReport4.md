@@ -17,3 +17,5 @@ Steps i took: /index1 <enter>, 9n, 5l, x, i, 2, :wq <enter>
 ###: Run the tests, demonstrating that they now succeed:
 ![image](https://github.com/jharasaki/cse15l-lab-reports/assets/156235690/467819bf-a444-4db5-9611-72da6af066de)
 
+### Commit and push the resulting change to Github:
+<img width="397" alt="image" src="https://github.com/jharasaki/cse15l-lab-reports/assets/156235690/1c12fdd3-c612-403e-a450-69afc43b6b01">
