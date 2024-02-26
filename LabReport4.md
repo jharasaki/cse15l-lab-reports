@@ -14,7 +14,9 @@
 
 Steps i took: /index1 <enter>, 9n, 5l, x, i, 2, :wq <enter>
 
-###: Run the tests, demonstrating that they now succeed:
+'/index1' 
+
+### Run the tests, demonstrating that they now succeed:
 ![image](https://github.com/jharasaki/cse15l-lab-reports/assets/156235690/467819bf-a444-4db5-9611-72da6af066de)
 
 ### Commit and push the resulting change to Github:
