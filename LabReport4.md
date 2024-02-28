@@ -3,16 +3,22 @@
 ### Log into ieng6:
 ![image](https://github.com/jharasaki/cse15l-lab-reports/assets/156235690/f3b7669c-d815-4d80-adab-261203abe61d)
 
-### Clone my fork of the repository (already did it in lab):
+### Clone my fork of the repository:
 ![image](https://github.com/jharasaki/cse15l-lab-reports/assets/156235690/652ec5a3-cf12-4b23-9455-3bba039fb20d)
 
-### Run the tests, demonstrating that they fail:
+Forked and then cloned the lab 7 repository. I already did this in the lab.
+
+### Run the tests first time:
 ![image](https://github.com/jharasaki/cse15l-lab-reports/assets/156235690/edb96e16-6e85-4a8d-acdb-fba2caaa92c7)
+
+This first test demonstrates that there is one test that fails.
 
 ### Edit the cause for failing test:
 <img width="581" alt="image" src="https://github.com/jharasaki/cse15l-lab-reports/assets/156235690/6344e046-d47d-4c15-84be-0e1e2c144f71">
 
-Steps i took: `/index1 <enter>, 9n, 5l, x, i, 2, :wq <enter>`
+Opened the file in vim using vim JavaExamples.java
+
+**Steps i took to edit the issue:** `/index1 <enter>, 9n, 5l, x, i, 2, :wq <enter>`
 
 `/index1 <enter>` searches for and maps to the first "index1" in the file
 
