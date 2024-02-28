@@ -16,9 +16,9 @@ This first test demonstrates that there is one test that fails.
 ### Edit the cause for failing test:
 <img width="581" alt="image" src="https://github.com/jharasaki/cse15l-lab-reports/assets/156235690/6344e046-d47d-4c15-84be-0e1e2c144f71">
 
-Opened the file in vim using vim JavaExamples.java
+Opened the file in vim using `vim ListExamples.java`
 
-**Steps i took to edit the issue:** `/index1 <enter>, 9n, 5l, x, i, 2, :wq <enter>`
+**Steps i took to edit the bug:** `/index1 <enter>, 9n, 5l, x, i, 2, :wq <enter>`
 
 `/index1 <enter>` searches for and maps to the first "index1" in the file
 
@@ -33,9 +33,12 @@ Opened the file in vim using vim JavaExamples.java
 `:wq <enter>` to save and exit from vim
 
 
-
-### Run the tests, demonstrating that they now succeed:
+### Run the tests again:
 ![image](https://github.com/jharasaki/cse15l-lab-reports/assets/156235690/467819bf-a444-4db5-9611-72da6af066de)
+
+Ran the tests again using `bash test.sh` and now demonstrating that both tests succeed.
 
 ### Commit and push the resulting change to Github:
 <img width="397" alt="image" src="https://github.com/jharasaki/cse15l-lab-reports/assets/156235690/1c12fdd3-c612-403e-a450-69afc43b6b01">
+
+Then finally committed the changes to the git files.
