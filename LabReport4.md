@@ -13,7 +13,7 @@ Forked and then cloned the lab 7 repository `git <space> clone <space> git@githu
 ### Run the tests first time:
 <img width="600" alt="image" src="https://github.com/jharasaki/cse15l-lab-reports/assets/156235690/b8e61983-a733-4040-8bbe-226118a11b09">
 
-Ran the test with `bash <space> test.sh`. This first test demonstrates that there is one test that fails.
+Ran the test with `bash test.sh`. This first test demonstrates that there is one test that fails.
 
 ### Edit the cause for failing test:
 <img width="600" alt="image" src="https://github.com/jharasaki/cse15l-lab-reports/assets/156235690/6344e046-d47d-4c15-84be-0e1e2c144f71">
