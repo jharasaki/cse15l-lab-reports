@@ -1,7 +1,9 @@
 # Lab Report 4 - Vim
 
 ### Log into ieng6:
-![image](https://github.com/jharasaki/cse15l-lab-reports/assets/156235690/f3b7669c-d815-4d80-adab-261203abe61d)
+<img width="581" alt="image" src="https://github.com/jharasaki/cse15l-lab-reports/assets/156235690/f3b7669c-d815-4d80-adab-261203abe61d">
+
+`ssh <space> jharasaki@ieng6-201.ucsd.edu` to log into ieng6
 
 ### Clone my fork of the repository:
 ![image](https://github.com/jharasaki/cse15l-lab-reports/assets/156235690/652ec5a3-cf12-4b23-9455-3bba039fb20d)
