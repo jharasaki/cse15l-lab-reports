@@ -36,7 +36,7 @@ Opened the file in vim using `vim ListExamples.java`
 
 
 ### Run the tests again:
-![image](https://github.com/jharasaki/cse15l-lab-reports/assets/156235690/467819bf-a444-4db5-9611-72da6af066de)
+<img width="504" alt="image" src="https://github.com/jharasaki/cse15l-lab-reports/assets/156235690/467819bf-a444-4db5-9611-72da6af066de">
 
 Ran the tests again using `bash test.sh` and now demonstrating that both tests succeed.
 
