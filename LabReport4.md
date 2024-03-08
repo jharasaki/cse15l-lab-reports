@@ -11,9 +11,9 @@
 Forked and then cloned the lab 7 repository `git <space> clone <space> git@github.com:jharasaki/lab7.git`. I already did this in the lab so it already exists.
 
 ### Run the tests first time:
-![image](https://github.com/jharasaki/cse15l-lab-reports/assets/156235690/edb96e16-6e85-4a8d-acdb-fba2caaa92c7)
+<img width="995" alt="image" src="https://github.com/jharasaki/cse15l-lab-reports/assets/156235690/b8e61983-a733-4040-8bbe-226118a11b09">
 
-This first test demonstrates that there is one test that fails.
+Ran the test with `bash <space> test.sh`. This first test demonstrates that there is one test that fails.
 
 ### Edit the cause for failing test:
 <img width="581" alt="image" src="https://github.com/jharasaki/cse15l-lab-reports/assets/156235690/6344e046-d47d-4c15-84be-0e1e2c144f71">
