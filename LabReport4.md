@@ -6,9 +6,9 @@
 `ssh <space> jharasaki@ieng6-201.ucsd.edu` to log into ieng6
 
 ### Clone my fork of the repository:
-![image](https://github.com/jharasaki/cse15l-lab-reports/assets/156235690/652ec5a3-cf12-4b23-9455-3bba039fb20d)
+<img width="549" alt="image" src="https://github.com/jharasaki/cse15l-lab-reports/assets/156235690/47cbc745-db35-471d-96bc-63ac29016df9">
 
-Forked and then cloned the lab 7 repository. I already did this in the lab.
+Forked and then cloned the lab 7 repository `git <space> clone <space> git@github.com:jharasaki/lab7.git`. I already did this in the lab so it already exists.
 
 ### Run the tests first time:
 ![image](https://github.com/jharasaki/cse15l-lab-reports/assets/156235690/edb96e16-6e85-4a8d-acdb-fba2caaa92c7)
