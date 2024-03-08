@@ -1,22 +1,22 @@
 # Lab Report 4 - Vim
 
 ### Log into ieng6:
-<img width="581" alt="image" src="https://github.com/jharasaki/cse15l-lab-reports/assets/156235690/f3b7669c-d815-4d80-adab-261203abe61d">
+<img width="600" alt="image" src="https://github.com/jharasaki/cse15l-lab-reports/assets/156235690/f3b7669c-d815-4d80-adab-261203abe61d">
 
 `ssh <space> jharasaki@ieng6-201.ucsd.edu` to log into ieng6
 
 ### Clone my fork of the repository:
-<img width="549" alt="image" src="https://github.com/jharasaki/cse15l-lab-reports/assets/156235690/47cbc745-db35-471d-96bc-63ac29016df9">
+<img width="600" alt="image" src="https://github.com/jharasaki/cse15l-lab-reports/assets/156235690/47cbc745-db35-471d-96bc-63ac29016df9">
 
 Forked and then cloned the lab 7 repository `git <space> clone <space> git@github.com:jharasaki/lab7.git`. I already did this in the lab so it already exists.
 
 ### Run the tests first time:
-<img width="995" alt="image" src="https://github.com/jharasaki/cse15l-lab-reports/assets/156235690/b8e61983-a733-4040-8bbe-226118a11b09">
+<img width="600" alt="image" src="https://github.com/jharasaki/cse15l-lab-reports/assets/156235690/b8e61983-a733-4040-8bbe-226118a11b09">
 
 Ran the test with `bash <space> test.sh`. This first test demonstrates that there is one test that fails.
 
 ### Edit the cause for failing test:
-<img width="581" alt="image" src="https://github.com/jharasaki/cse15l-lab-reports/assets/156235690/6344e046-d47d-4c15-84be-0e1e2c144f71">
+<img width="600" alt="image" src="https://github.com/jharasaki/cse15l-lab-reports/assets/156235690/6344e046-d47d-4c15-84be-0e1e2c144f71">
 
 Opened the file in vim using `vim ListExamples.java`
 
