@@ -41,6 +41,6 @@ Opened the file in vim using `vim ListExamples.java`
 Ran the tests again using `bash test.sh` and now demonstrating that both tests succeed.
 
 ### Commit and push the resulting change to Github:
-<img width="397" alt="image" src="https://github.com/jharasaki/cse15l-lab-reports/assets/156235690/1c12fdd3-c612-403e-a450-69afc43b6b01">
+<img width="504" alt="image" src="https://github.com/jharasaki/cse15l-lab-reports/assets/156235690/091995d4-c822-45c4-a75b-06f164213465">
 
 Then finally committed the changes to the git files.
