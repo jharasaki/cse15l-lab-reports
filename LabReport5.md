@@ -80,7 +80,9 @@ Output:
   ```
 
   Contents of Each File Before Fixing: Shown in 1.
+  
   Full Command Line to Trigger the Bug: `bash grade.sh`
+  
   Description of What to Edit to Fix the Bug: In AverageCalculator.java, change return sum / (numbers.size() - 1); to return sum / numbers.size(); to correctly calculate the average.
 
 <img width="389" alt="image" src="https://github.com/jharasaki/cse15l-lab-reports/assets/156235690/ed7fb3ea-c0bc-435c-8b2f-3e861e5098ac">
