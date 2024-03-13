@@ -71,11 +71,22 @@ Output:
 
 4.) Setup Information
 
-    File & Directory Structure:
+  File & Directory Structure:
+    |-lab9
+    |    |-AverageCalculator.class
+    |    |-AverageCalculator.java
+    |    |-grade.sh
+
+  Contents of Each File Before Fixing: Shown in 1.
+  Full Command Line to Trigger the Bug: `bash grade.sh`
+  Description of What to Edit to Fix the Bug: In AverageCalculator.java, change return sum / (numbers.size() - 1); to return sum / numbers.size(); to correctly calculate the average.
+
+<img width="389" alt="image" src="https://github.com/jharasaki/cse15l-lab-reports/assets/156235690/ed7fb3ea-c0bc-435c-8b2f-3e861e5098ac">
 
 
 
+## Part 2 - Reflection
 
-
+The coolest part of this second half for me was probably using Vim to do almost do everything just from the command line. Especially for really long files I may deal with in the future, the commands in Vim could be really useful in saving time. To be honest, other than that, I am not sure yet how helpful it could be for me but there were a lot more tools and commands that I could use that even up my efficiency even more.
 
 
