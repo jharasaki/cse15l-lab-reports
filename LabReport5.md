@@ -2,7 +2,7 @@
 
 ## Part 1 – Debugging Scenario
 
-1.) Original Post (I used the ListExamples.java file from lab 3):
+1.) Original Post:
 
   Subject: "Issue with Merging Lists in Java"
 
