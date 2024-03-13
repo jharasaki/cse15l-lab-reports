@@ -72,10 +72,12 @@ Output:
 4.) Setup Information
 
   File & Directory Structure:
+  ```
     |-lab9
     |    |-AverageCalculator.class
     |    |-AverageCalculator.java
     |    |-grade.sh
+  ```
 
   Contents of Each File Before Fixing: Shown in 1.
   Full Command Line to Trigger the Bug: `bash grade.sh`
