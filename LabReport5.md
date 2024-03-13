@@ -8,7 +8,7 @@
 
 "Hello,
 
-I'm currently working on a Java program that is supposed to calculate the average of a list of integers. When I run grade.sh to calculate the average of the numbers 10, 20, and 30, I expect the result to be 20, but the output is showing that the average is 30.0. What could be wrong with my AverageCalculator.java?"
+I'm currently working on a Java program that is supposed to calculate the average of a list of integers. When I run grade.sh to calculate the average of the numbers 10, 20, and 30, I expect the result to be 20, but the output is showing that the average is 30.0. What's wrong with my code?"
 
 Here is the code:
 ```
