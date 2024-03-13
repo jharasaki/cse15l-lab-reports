@@ -69,6 +69,8 @@ Output:
 
 <img width="848" alt="image" src="https://github.com/jharasaki/cse15l-lab-reports/assets/156235690/f21dda3f-c66e-482e-afe4-719b59634cd1">
 
+
+
 4.) Setup Information
 
   File & Directory Structure:
